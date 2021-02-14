@@ -1,6 +1,12 @@
 git init
+git config --global alias.ci commit
+git config --global alias.st status
+git config --global alias.br branch
+git config --global alias.co checkout
+git config --global user.email "waka_taka@wakataka.mixh.jp"
+git config --global user.name "waka_prings"
 git add .
 git commit -m "sympy Training 20210214-01"
-git status
-git remote add origin https://github.com/wakaprings/WindowsAnsible.git
-git push -u origin master
+git branch -M main
+git remote add origin https://github.com/wakaprings/StudyMathMemo.git
+git push -u origin main
