@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "sympy Training 20210214-01"
+git status
+git remote add origin https://github.com/wakaprings/WindowsAnsible.git
+git push -u origin master
